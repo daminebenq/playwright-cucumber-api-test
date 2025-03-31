@@ -1,0 +1,2011 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "api-testing;verify-list-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Verify list endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the API endpoint is set to \"/users\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18093083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I make a GET request",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1024850583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1709624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the response should contain the field \"0.id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1839082
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;verify-list-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Verify list endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the API endpoint is set to \"/companies\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1297874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I make a GET request",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242684125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the response should contain the field \"0.id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001459
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;verify-single-resource-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Verify single resource endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "the API endpoint is set to \"/users/1\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1272917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I make a GET request",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232416542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 643083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the response should contain the field \"id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2440917
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;verify-single-resource-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Verify single resource endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "the API endpoint is set to \"/companies/1\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1248540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I make a GET request",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238988166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the response should contain the field \"id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 919792
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;verify-specialized-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Verify specialized endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "the API endpoint is set to \"/customers\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 888916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I make a GET request",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234139124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1179208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the response should contain the field \"0.username\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2167374
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;verify-specialized-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Verify specialized endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "the API endpoint is set to \"/notifications\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1028708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I make a GET request",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233708500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 986417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the response should contain the field \"0.title\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6393458
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;verify-specialized-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Verify specialized endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "the API endpoint is set to \"/\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1538291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I make a GET request",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227599083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 521125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the response should contain the field \"status\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 896666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;handle-invalid-user-endpoint",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Handle invalid user endpoint",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "the API endpoint is set to \"/users/invalid_id\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 723833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I make a GET request",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234005584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1699708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the response should not be valid JSON",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1630333
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;validate-http-error-responses",
+        "keyword": "Scenario Outline",
+        "line": 54,
+        "name": "Validate HTTP error responses",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "I send a PUT request to \"/api/endpoint\" ",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235049708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "the response status should be 405",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 631084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the response body should contain \"Method Not Allowed\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 889750
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;validate-http-error-responses",
+        "keyword": "Scenario Outline",
+        "line": 55,
+        "name": "Validate HTTP error responses",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "I send a GET request to \"/api/endpoint\" without parameters",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:144"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226999124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "the response status should be 400",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 689415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the response body should contain \"Bad Request\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433625
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;validate-http-error-responses",
+        "keyword": "Scenario Outline",
+        "line": 56,
+        "name": "Validate HTTP error responses",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "I send a GET request to \"/api/endpoint\" with \"invalidParam=123\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:160"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241883082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "the response status should be 422",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 719791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the response body should contain \"Unprocessable Entity\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 357833
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-testing;test-endpoint-with-empty-response",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Test endpoint with empty response",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the base API endpoint is set",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 59,
+            "name": "I send a GET request to \"/api/emptyEndpoint\"",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226334625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "the response status should be 204",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 661957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "the response body should be empty",
+            "match": {
+              "location": "features/step_definitions/apiSteps.js:176"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 774750
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "api-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "API Testing",
+    "tags": [],
+    "uri": "features/api.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-list-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Verify GET list endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1598540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the endpoint is \"/comments\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 237292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 993704750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 674875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the response array length should be 20",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2244666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-list-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Verify GET list endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1171666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the endpoint is \"/companies\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233908833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the response array length should be 10",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1061791
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-list-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Verify GET list endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 676999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the endpoint is \"/posts\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248808000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1630999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the response array length should be 10",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6627083
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-list-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify GET list endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5376084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the endpoint is \"/roles\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 804624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223506707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the response array length should be 5",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 708624
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-list-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Verify GET list endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 462790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the endpoint is \"/todos\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228188291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the response array length should be 20",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1601542
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-list-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify GET list endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1292209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the endpoint is \"/users\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225488916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 518042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the response array length should be 20",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258041
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-single-item-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Verify GET single-item endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 963040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the endpoint is \"/comments/1\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224812874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the response should contain the field \"id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1156417
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-single-item-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Verify GET single-item endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1287374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the endpoint is \"/companies/1\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235195125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the response should contain the field \"id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1927374
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-single-item-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Verify GET single-item endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the endpoint is \"/posts/1\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224377832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the response should contain the field \"id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 632249
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-single-item-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Verify GET single-item endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the endpoint is \"/roles/1\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227977000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the response should contain the field \"id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1485958
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-single-item-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Verify GET single-item endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1143915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the endpoint is \"/todos/1\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265129165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the response should contain the field \"id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3143332
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-get-single-item-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Verify GET single-item endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 994083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the endpoint is \"/users/1\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220677499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the response should contain the field \"id\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1240624
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-authentication-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 44,
+        "name": "Verify authentication endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1206541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "the endpoint is \"/login\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I send a POST request with body '{\"username\":\"michael\",\"password\":\"success-password\"}'",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219690708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 593500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "the response should contain the field \"token\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1341249
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;verify-authentication-endpoints",
+        "keyword": "Scenario Outline",
+        "line": 45,
+        "name": "Verify authentication endpoints",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1038792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "the endpoint is \"/login\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I send a POST request with body '{\"username\":\"user123\",\"password\":\"failed-password\"}'",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261964417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the response status should be 401",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "the response should contain the field \"error\"",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1179249
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jsonplaceholder-mock-api;handle-error-cases",
+        "keyword": "Scenario Outline",
+        "line": 54,
+        "name": "Handle error cases",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I use the JSONPlaceholder API with base URL \"https://json-placeholder.mock.beeceptor.com\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1105542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "the endpoint is \"http://example.com/invalid-endpoint\"",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I send a GET request",
+            "match": {
+              "location": "features/step_definitions/jsonplaceholderSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 684644083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "the response status should be 404",
+            "match": {
+              "location": "features/step_definitions/commonSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 555542
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "jsonplaceholder-mock-api",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "JSONPlaceholder Mock API",
+    "tags": [],
+    "uri": "features/jsonplaceholder.feature"
+  }
+]
