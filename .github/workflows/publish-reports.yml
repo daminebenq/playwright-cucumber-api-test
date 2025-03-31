@@ -32,7 +32,7 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload Reports
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
           path: "reports"
 
