@@ -32,10 +32,13 @@ jobs:
         uses: actions/configure-pages@v2
 
       - name: Upload Reports
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "reports"
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        with:
+          artifact_name: github-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
